@@ -14,7 +14,9 @@ class TwigProvider implements ServiceProviderInterface
     {
         $pimple[Twig::class] = function ($container) {
             $view = new Twig(__DIR__ . '/../Resources/views', [
-                'cache' => __DIR__ .  '/../../var/cache'
+                'cache' => __DIR__ .  '/../../var/cache',
+                'auto_reaload' => true,
+                'debug' => true
             ]);
 
             // Instantiate and add Slim specific extension
