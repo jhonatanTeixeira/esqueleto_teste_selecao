@@ -28,7 +28,7 @@ Há exemplos prontos de actions na pasta src/Action e de uma entidade em src/Dom
 ## Objetivos
 * Pede-se um cadastro de personagens de ficção, com os campos nome, altura, cor de pele, sexo, ano de nascimento e planeta natal
 * Todavia, ao digitar um nome, se o mesmo existir na base de dados do filme "star wars", base essa que deve ser consultada através da [SWAPI](https://swapi.co/), porém não diretamente via ajax e sim por uma url do próprio sistema. E o sistema deverá preencher o restante dos campos com os dados providos por tal api
-* Outro requisito seria referente ao campo planeta natal, pois quando o mesmo for preenchido como sendo o planeta terra, deve se exibir mais alguns campos no form, sendo os seguintes campos de endereço: país, estado, cidade, bairro e rua
+* Outro requisito seria referente ao campo planeta natal, pois quando o mesmo for preenchido como sendo o planeta Alderaan, deve se exibir mais alguns campos no form, sendo os seguintes campos de endereço: país, estado, cidade, bairro e rua
 
 ## Side Quests
 * Se não houver nenhum erro de code standard, ganhará pontos
